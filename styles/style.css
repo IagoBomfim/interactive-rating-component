@@ -42,7 +42,7 @@
 }
 
 #rating-form {
-  max-width: 45%;
+  max-width: 350px;
   padding: 35px 25px;
   border-radius: 15px;
   background-color: var(--neutral-Dark-Blue);
@@ -96,7 +96,7 @@
 }
 
 #thank-form {
-  max-width: 45%;
+  max-width: 350px;
   display: none;
   padding: 35px 25px;
   border-radius: 15px;
