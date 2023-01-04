@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="/styles/style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="rating-form">
+      <!-- Rating state start -->
+      
+      <div class="star-image-container">
+        <img srcset="/images/icon-star.svg" src="/images/icon-star.svg" alt="icon star">
+      </div>
+
+      <h2>How did we do?</h2>
+
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <div class="star-container">
+        <div class="star">1</div>
+        <div class="star">2</div>
+        <div class="star">3</div>
+        <div class="star">4</div>
+        <div class="star">5</div>
+      </div>
+      
+      <button type="submit" id="btn-submit">Submit</button>
+
+      <!-- Rating state end -->
+    </div>
+    <div id="thank-form">
+      <!-- Thank you state start -->
+      <img srcset="/images/illustration-thank-you.svg" src="/images/illustration-thank-you.svg" alt="illustration thank you">
+      
+      <div>
+      <p>You selected <span id="rating-count">0</span> out of 5</p>
+      </div>
+      
+      <h3>Thank you!</h3>
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+
+      <!-- Thank you state end -->
+
+    </div>
+  </div>
+  <script src="/scripts/main.js"></script>
+</body>
+
+</html>
