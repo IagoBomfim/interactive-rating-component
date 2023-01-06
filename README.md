@@ -2,7 +2,7 @@
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-![](/screenshots/screenshot-desktop.png)
+![](/screenshots/screenshot-desktop-rating.png)
 
 ## Table of contents
 
@@ -13,8 +13,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,6 +40,20 @@ Users should be able to:
 - Mobile thanks page
 
 ![](./screenshots/screenshot-mobile-thanks.png)
+
+### desktop screenshot
+
+- desktop rating form
+
+![](./screenshots/screenshot-desktop-rating.png)
+
+- desktop rating selected stars
+
+!1[](./screenshots/screenshot-desktop-selected-star.png)
+
+- desktop thanks page
+
+![](.//screenshots/screenshot-desktop-thanks.png)
 
 ### Links
 
